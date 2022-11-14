@@ -1,0 +1,15 @@
+:root{
+    --tipografia: 'Inter', sans-serif;
+    --azul-escuro: #0015C2;
+    --azul-claro: #177CFF;
+    --azul1: #005EED;
+    --azul2: #0052FF;
+    --azul3: #1241c2;
+    --preto: rgb(0, 0, 0);
+    --cinza-alto: rgb(100, 100, 100);
+    --cinza-medio: rgb(134, 134, 134);
+    --cinza-baixo: rgb(175, 175, 175);
+    --desktop: 1440px;
+    --tablet: 600px;
+    --mobile: 375px;
+}   

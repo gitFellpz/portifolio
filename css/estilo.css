@@ -1,0 +1,58 @@
+html{
+    font-size: 62,5%;
+}
+body{
+    font-size: 1.6rem; /* 16px */
+    font-family: var(--tipografia);
+    font-weight: 400;
+    background-color: white;
+}
+
+/* ESTILZIAÇÃO HEADER */
+header{
+    background-color: white;
+    padding: 25px 50px;
+    border-bottom: 5px solid black;
+}
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-container .nome{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+}
+header .header-container .nome:hover h1{
+    color: var(--azul3);
+    transition: 0.2s;
+}
+
+
+
+@keyframes pan {
+    100% {background-position: 5% 20%; }
+}
+main{
+
+}
+main .inicio{
+    height: 90vh;
+    background-image: url('../images/low-poly-grid-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
+    padding: 50px;
+    color: white;
+    display: flex;
+}
+main .inicio .foto{
+    max-width: 300px;
+}
+main .inicio .foto img{
+    width: 100%;
+    border-radius: 200px;
+}
