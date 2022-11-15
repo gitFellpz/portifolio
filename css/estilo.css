@@ -40,7 +40,7 @@ main{
 
 }
 main .inicio{
-    height: 90vh;
+    height: 87vh;
     background-image: url('../images/low-poly-grid-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,11 +48,48 @@ main .inicio{
     padding: 50px;
     color: white;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+main .inicio .info{
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
 main .inicio .foto{
     max-width: 300px;
 }
 main .inicio .foto img{
     width: 100%;
     border-radius: 200px;
+}
+
+main .inicio .info .nome{
+    margin-bottom: 5px;
+    font-size: 2.3rem;
+}
+main .inicio .info .profissao{
+    color: var(--cinza-baixo);
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+main .inicio .info .profissao span{
+    color: var(--azul-claro);
+    font-weight: 800;
+}
+main .inicio .info .localizacao, .telefone, .gmail{
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+main .inicio .redes-sociais{
+    margin-top: 15px;
+}
+main .inicio .redes-sociais a{
+    color: white;
+    font-size: 2rem;
+}
+main .inicio .redes-sociais a:nth-child(2){
+    margin-left: 20px;
+
 }
