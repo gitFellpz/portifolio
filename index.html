@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/variaveis.css">
         <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/fontawesome.min.css">
         <link rel="stylesheet" href="./css/estilo.css">
         <link rel="stylesheet" href="./css/menu.css">
 
@@ -19,7 +20,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header-principal">
             <div class="header-container">
                 <a class="nome" href="">
                     <h1>PORTIFÓLIO</h1>
@@ -74,47 +75,83 @@
             </section>
 
             <section class="sobre">
-                <div class="info">
-
+                <div class="graduação">
+                    <img src="./images/logo-fiap.png" alt="">
                     <p>Cursando Sistemas de Informação na FIAP</p>
                     <p>Bolsista integral</p>
                     <p>Graduação iniciada em 2022</p>
                     <p>Previsão de conclusão em 2025</p>
+                </div>
+                <div class="objetivo">
                     <p>A procura da minha primeira oportunidade de estágio em TI</p>
+
                     <p>Sempre buscando e ampliando meus conhecimentos em Front-End e suas tecnologias</p>
                 </div>
             </section>
 
             <section class="habilidades">
-                <h2>Habilidades</h2>
+                <header class="header-habilidades">
+                    <h2>Habilidades</h2>
+                    <img src="./images/habilidaes-removebg-preview.png"alt="">
+                </header>
+                
+                <div class="container-habilidades">
+                    <div class="html">
+                        <header class="html-header">
+                            <h3>HTML5</h3>
+                            <i class="fab fa-html5"></i>
+                        </header>
 
-                <div class="html">
-                    <h3>HTML5</h3>
-                    <i class="fab fa-html5"></i>
-                    <div class="barra">
-                        <div class="nivel"></div>
+                        <div class="barra">
+                            <div class="nivel nivel-html"></div>
+                        </div>
+
+                        <h4>Avançado</h4>
                     </div>
-                </div>
+    
+                    <div class="css">
+                        <header class="css-header">
+                            <h3>CSS</h3>
+                            <i class="fab fa-css3-alt"></i>
+                        </header>
 
-                <div class="css">
-                    <h3>CSS</h3>
-                    <i class="fab fa-css3-alt"></i>
-                    <div class="barra">
-                        <div class="nivel"></div>
+                        <div class="barra">
+                            <div class="nivel nivel-css"></div>
+                        </div>
+
+                        <h4>Avançado</h4>
                     </div>
-                </div>
+    
+                    <div class="js">
+                        <header class="js-header">
+                            <h3>JS</h3>
+                            <i class="fab fa-js-square"></i>
+                        </header>
 
-                <div class="js">
-                    <h3>JS</h3>
-                    <i class="fab fa-js-square"></i>
-                    <div class="barra">
-                        <div class="nivel"></div>
+                        <div class="barra">
+                            <div class="nivel nivel-js"></div>
+                        </div>
+
+                        <h4>Básico</h4>
                     </div>
-                </div>
 
+                    <!-- <div class="x">
+                        <header class="x-header">
+                            <h3>X</h3>
+
+                        </header>
+
+                        <div class="barra">
+                            <div class="nivel nivel-x"></div>
+                        </div>
+
+                        <h4>Y</h4>
+                    </div> -->
+                    
+                </div>
             </section>
 
-            <!-- <section class="projetos">
+            <section class="projetos">
                 <h2>Meus projetos</h2>
 
                 <div class="projetos-principais">
@@ -139,7 +176,7 @@
 
                 </div>
 
-                <div class="projetos-simples">
+                <!-- <div class="projetos-simples">
                     <h3>Projetos simples</h3>
 
                     <div class="box box1">
@@ -160,10 +197,10 @@
                     </div>
 
 
-                </div>
+                </div> -->
             </section>
 
-            <section class="certificados">
+            <!-- <section class="certificados">
 
             </section>
 

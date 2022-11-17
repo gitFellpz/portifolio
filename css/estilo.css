@@ -9,32 +9,34 @@ body{
 }
 
 /* ESTILZIAÇÃO HEADER */
-header{
+.header-principal{
     background-color: white;
     padding: 25px 50px;
     border-bottom: 5px solid black;
 }
-header .header-container{
+.header-principal .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header .header-container .nome{
+.header-principal .header-container .nome{
     color: black;
     font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 2px;
     
 }
-header .header-container .nome:hover h1{
+.header-principal .header-container .nome:hover h1{
     color: var(--azul3);
     transition: 0.2s;
 }
 
 
+/* ESTILIZAÇÃO MAIN */
 
+/* SECTION INICIO */
 @keyframes pan {
-    100% {background-position: 5% 20%; }
+    100% {background-position: 30% 80%; }
 }
 main{
 
@@ -82,6 +84,7 @@ main .inicio .info .localizacao, .telefone, .gmail{
     margin-top: 4px;
 }
 
+/* REDES SOCIAIS */
 main .inicio .redes-sociais{
     margin-top: 15px;
 }
@@ -96,4 +99,119 @@ main .inicio .redes-sociais a:hover{
 main .inicio .redes-sociais a:nth-child(2){
     margin-left: 20px;
 
+}
+
+
+
+/* SECTION SOBRE */
+
+/* GRADUAÇÃO */
+
+
+
+
+
+
+/* SECTION HABILIDADES */
+@keyframes pan2 {
+    100% {background-position: 1% 20%; }
+}
+main .habilidades{
+    background-image: url('../images/stacked-waves-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan2 6s infinite alternate linear;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+}
+main .habilidades .header-habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+main .habilidades .header-habilidades h2{
+    font-size: 3rem;
+    margin-right: 30px;
+    color: white;
+    transition: 0.3s;
+}
+main .habilidades .header-habilidades h2:hover{
+    color: red;
+}
+main .habilidades .header-habilidades img{
+    width: 70px;
+}
+
+
+main .habilidades .container-habilidades{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+main .habilidades .container-habilidades .html-header, 
+.css-header, 
+.js-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+main .habilidades .html-header h3, 
+.css-header h3, 
+.js-header h3{
+    margin-right: 20px;
+}
+main .habilidades .html-header h3{
+    color: rgb(255, 72, 0);
+}
+main .habilidades .css-header h3{
+    color: var(--azul-claro);
+}
+main .habilidades .js-header h3{
+    color: yellow;
+}
+
+main .habilidades .barra{
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    margin: 0 auto;
+}
+main .habilidades .barra .nivel{
+    height: 20px;
+    background-color: rgb(189, 34, 34);
+}
+.nivel-html{
+    width: 100px;
+}
+.nivel-css{
+    width: 100px;
+}
+.nivel-js{
+    width: 20px;
+}
+
+main .habilidades .container-habilidades .html-container{
+
+}
+main .habilidades h4{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* SECTION PROJETOS */
+main .projetos{
+
+}
+main .projetos h2{
+    text-align: center;
 }
