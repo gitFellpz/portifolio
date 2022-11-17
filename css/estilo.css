@@ -88,6 +88,10 @@ main .inicio .redes-sociais{
 main .inicio .redes-sociais a{
     color: white;
     font-size: 2rem;
+    transition: 0.3s;
+}
+main .inicio .redes-sociais a:hover{
+    color: var(--azul-claro);
 }
 main .inicio .redes-sociais a:nth-child(2){
     margin-left: 20px;
