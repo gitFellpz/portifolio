@@ -118,6 +118,7 @@ main .sobre .graduação, .objetivo{
 }
 
 
+/* GRADUAÇÃO */
 main .sobre .graduação{
     grid-area: graduacao;
 
@@ -139,6 +140,7 @@ main .sobre .graduação a:hover img{
 }
 
 
+/* OBJETIVO */
 main .sobre .objetivo{
     grid-area: objetivo;
 
@@ -174,6 +176,8 @@ main .habilidades{
     justify-content: center;
     padding: 50px;
 }
+
+/* HEADER HABILIDADES */
 main .habilidades .header-habilidades{
     display: flex;
     justify-content: center;
@@ -194,6 +198,7 @@ main .habilidades .header-habilidades img{
 }
 
 
+/* CONTAINER HABILIDADES */
 main .habilidades .container-habilidades{
     display: flex;
     justify-content: space-evenly;
@@ -242,6 +247,7 @@ main .habilidades .barra .nivel{
     width: 20px;
 }
 
+/* HTML */
 main .habilidades .container-habilidades .html-container{
 
 }
@@ -362,4 +368,3 @@ main .projetos .projetos-principais h3{
 main .projetos .projetos-principais h3:hover{
     color: white;
 }
-
