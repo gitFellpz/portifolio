@@ -38,9 +38,6 @@ body{
 @keyframes pan {
     100% {background-position: 30% 80%; }
 }
-main{
-
-}
 main .inicio{
     height: 87vh;
     background-image: url('../images/low-poly-grid-haikei.svg');
@@ -108,7 +105,7 @@ main .sobre{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 100px 20px;
+    padding: 100px 20px 0px 20px;
     gap: 50px;
 }
 main .sobre p{
@@ -155,13 +152,10 @@ main .sobre .objetivo p:nth-child(3) span{
 }
 
 
-
-
-/* GRADUAÇÃO */
-
-
-
-
+/* LOCALIZADOR */
+.localizador{
+    margin-bottom: 100px;
+}
 
 
 /* SECTION HABILIDADES */
@@ -173,17 +167,18 @@ main .habilidades{
     background-repeat: no-repeat;
     background-size: cover;
     animation: pan2 6s infinite alternate linear;
+    min-height: 50vh;
 
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
     padding: 50px;
 }
 main .habilidades .header-habilidades{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 main .habilidades .header-habilidades h2{
     font-size: 3rem;
@@ -367,3 +362,4 @@ main .projetos .projetos-principais h3{
 main .projetos .projetos-principais h3:hover{
     color: white;
 }
+
