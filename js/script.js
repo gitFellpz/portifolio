@@ -2,7 +2,7 @@
 // Define o seletor
     // Variável para as tags a
     let anchorSelector = 'a[href^="#"]';
-      
+    
     // Selecionar todas as tags a
     let anchorList = document.querySelectorAll(anchorSelector);
           
