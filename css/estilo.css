@@ -149,6 +149,10 @@ main .sobre .objetivo{
 main .sobre .objetivo h2{
     color: rgb(243, 66, 66);
 }
+main .sobre .objetivo p:nth-child(3) span{
+    color: blue;
+    font-weight: 600;
+}
 
 
 
