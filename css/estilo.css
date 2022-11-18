@@ -251,15 +251,15 @@ main .projetos .projetos-principais h4,
     color: rgb(0, 219, 0);
     font-size: 1.7rem;
 }
-main .projetos .projetos-principais a,
-.projetos-simples a{
+main .projetos .projetos-principais .link,
+.projetos-simples .link{
     color:white;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-main .projetos .projetos-principais a, p, h4
-, .projetos-simples a, p, h4{
+main .projetos .projetos-principais .link, p, h4
+, .projetos-simples .link, p, h4{
     margin-top: 10px;
 }
 
@@ -268,7 +268,7 @@ main .projetos .projetos-principais a, p, h4
 main .projetos .projetos-simples p{
     color: black;
 }
-.projetos-simples a{
+.projetos-simples .link{
     color: rgb(0, 219, 0);
 
 }
