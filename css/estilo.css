@@ -225,14 +225,15 @@ main .projetos .projetos-simples,
 }
 main .projetos .projetos-simples .box, 
 .projetos-principais .box{
-    max-width: 400px;
-    border: 1px solid black;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: end;
     text-align: center;
+    border-radius: 20px;
 }
 main .projetos .projetos-simples .box img, 
 .projetos-principais .box img{
     width: 100%;
+    border-radius: 20px;
 }
