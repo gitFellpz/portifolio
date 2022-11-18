@@ -209,11 +209,29 @@ main .habilidades h4{
 
 
 /* SECTION PROJETOS */
-main .projetos{
-
+main .projetos .projetos-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+main .projetos .projetos-titulo img{
+    width: 50px;
+    margin-left: 30px;
+}
+main .projetos h2{
+    font-size: 2.7rem;
+    transition: 0.3s;
+}
+main .projetos h3{
+    font-size: 1.5rem;
+    width: 300px;
+    margin: 0 auto;
 }
 main .projetos h2, h3{
     text-align: center;
+}
+main .projetos .projetos-titulo h2:hover{
+    color: green;
 }
 
 /* ESTILIZAÇÕES GERAIS (PRINCIPAIS E SIMPLES) */
@@ -262,15 +280,20 @@ main .projetos .projetos-principais .link, p, h4
 , .projetos-simples .link, p, h4{
     margin-top: 10px;
 }
+main .projetos .projetos-principais, .projetos-simples{
+    padding-bottom: 50px;
+}
 
 
 /* PROJETOS SIMPLES */
+main .projetos .projetos-simples h3{
+    margin-bottom: 30px;
+}
 main .projetos .projetos-simples p{
     color: black;
 }
 .projetos-simples .link{
     color: rgb(0, 219, 0);
-
 }
 
 
@@ -280,4 +303,11 @@ main .projetos .projetos-principais{
     background-repeat: no-repeat;
     background-size: cover;
     animation: pan 6s infinite alternate linear;
+}
+main .projetos .projetos-principais h3{
+    padding: 30px;
+    transition: 0.3s;
+}
+main .projetos .projetos-principais h3:hover{
+    color: white;
 }
