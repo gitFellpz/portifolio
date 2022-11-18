@@ -104,6 +104,54 @@ main .inicio .redes-sociais a:nth-child(2){
 
 
 /* SECTION SOBRE */
+main .sobre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 20px;
+    gap: 50px;
+}
+main .sobre p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+main .sobre .graduação, .objetivo{
+    text-align: center;
+    max-width: 500px;
+}
+
+
+main .sobre .graduação{
+    grid-area: graduacao;
+
+}
+main .sobre .graduação h2{
+    color: var(--azul-claro);
+}
+main .sobre .graduação p:nth-child(3),
+.graduação p:nth-child(4), 
+.graduação p:nth-child(5){
+    font-size: 1.2rem;
+}
+main .sobre .graduação img{
+    width: 150px;
+    transition: 0.3s;
+}
+main .sobre .graduação a:hover img{
+    opacity: 0.4;
+}
+
+
+main .sobre .objetivo{
+    grid-area: objetivo;
+
+}
+main .sobre .objetivo h2{
+    color: rgb(243, 66, 66);
+}
+
+
+
 
 /* GRADUAÇÃO */
 
@@ -286,8 +334,12 @@ main .projetos .projetos-principais, .projetos-simples{
 
 
 /* PROJETOS SIMPLES */
+main .projetos .projetos-simples{
+    background-color: white;
+}
 main .projetos .projetos-simples h3{
     margin-bottom: 30px;
+    color: rgb(0, 184, 0);
 }
 main .projetos .projetos-simples p{
     color: black;
