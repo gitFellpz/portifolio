@@ -215,14 +215,16 @@ main .projetos{
 main .projetos h2, h3{
     text-align: center;
 }
-main .projetos .projetos-simples, 
-.projetos-principais{
+
+/* ESTILIZAÇÕES GERAIS (PRINCIPAIS E SIMPLES) */
+main .projetos .boxs{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
     padding: 20px 50px;
 }
+
 main .projetos .projetos-simples .box, 
 .projetos-principais .box{
     max-width: 350px;
@@ -236,4 +238,46 @@ main .projetos .projetos-simples .box img,
 .projetos-principais .box img{
     width: 100%;
     border-radius: 20px;
+}
+
+main .projetos .projetos-principais p,
+.projetos-simples p{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+main .projetos .projetos-principais h4,
+.projetos-simples h4{
+    color: rgb(0, 219, 0);
+    font-size: 1.7rem;
+}
+main .projetos .projetos-principais a,
+.projetos-simples a{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+main .projetos .projetos-principais a, p, h4
+, .projetos-simples a, p, h4{
+    margin-top: 10px;
+}
+
+
+/* PROJETOS SIMPLES */
+main .projetos .projetos-simples p{
+    color: black;
+}
+.projetos-simples a{
+    color: rgb(0, 219, 0);
+
+}
+
+
+/* PROJETOS PRINCIPAIS */
+main .projetos .projetos-principais{
+    background-image: url('../images/stacked-peaks-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
 }
