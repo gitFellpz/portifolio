@@ -309,6 +309,12 @@ main .projetos .projetos-simples .box img,
 .projetos-principais .box img{
     width: 100%;
     border-radius: 20px;
+    transition: 0.3s;
+}
+
+main .projetos .projetos-simples .box img:hover, 
+.projetos-principais .box img:hover{
+    opacity: 0.6;
 }
 
 main .projetos .projetos-principais p,
@@ -364,7 +370,8 @@ main .projetos .projetos-principais{
 main .projetos .projetos-principais h3{
     padding: 30px;
     transition: 0.3s;
+    color: white;
 }
 main .projetos .projetos-principais h3:hover{
-    color: white;
+    color: black;
 }
