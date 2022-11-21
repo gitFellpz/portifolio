@@ -32,6 +32,18 @@ body{
 }
 
 /* RESPONSIVIDADE */
+@media(max-width: 430px){
+    .header-principal .header-container .nome{
+        font-size: 1rem;
+        
+    }
+}
+@media(max-width: 320px){
+    .header-principal .header-container .nome{
+        font-size: 0.8rem;
+        
+    }
+}
 
 
 /* ESTILIZAÇÃO MAIN */
@@ -115,6 +127,17 @@ main .inicio .redes-sociais a:nth-child(2){
         max-width: 200px;
     }
 
+    
+}
+
+@media(max-width: 320px){
+    main .inicio .info .nome {
+        font-size: 2rem;
+    }
+    main .inicio .info .profissao {
+        font-size: 1.3rem;
+    }
+    
 }
 
 /* SECTION SOBRE */
