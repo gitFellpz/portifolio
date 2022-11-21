@@ -31,10 +31,13 @@ body{
     transition: 0.2s;
 }
 
+/* RESPONSIVIDADE */
+
 
 /* ESTILIZAÇÃO MAIN */
 
 /* SECTION INICIO */
+/*  */
 @keyframes pan {
     100% {background-position: 30% 80%; }
 }
@@ -49,6 +52,7 @@ main .inicio{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 main .inicio .info{
     margin-right: 20px;
@@ -98,7 +102,20 @@ main .inicio .redes-sociais a:nth-child(2){
 
 }
 
+/* RESPONSIVIDADE */
+@media(max-width: 930px){
+    main .inicio{
+        text-align: center;
+    }
 
+}
+
+@media(max-width: 450px){
+    main .inicio .foto{
+        max-width: 200px;
+    }
+
+}
 
 /* SECTION SOBRE */
 main .sobre{
