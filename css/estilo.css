@@ -400,6 +400,10 @@ main .projetos .projetos-simples h3{
 }
 main .projetos .projetos-simples p{
     color: black;
+    text-align: center;
+}
+main .projetos .projetos-simples p:nth-child(2){
+    margin-bottom: 30px;
 }
 .projetos-simples .link{
     color: rgb(0, 219, 0);
