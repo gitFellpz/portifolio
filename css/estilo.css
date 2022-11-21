@@ -286,11 +286,6 @@ main .habilidades .barra .nivel{
 .nivel-js{
     width: 20px;
 }
-
-/* HTML */
-main .habilidades .container-habilidades .html-container{
-
-}
 main .habilidades h4{
     font-size: 1.3rem;
     margin-top: 20px;
@@ -298,7 +293,18 @@ main .habilidades h4{
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
+/* RESPONSIVIDADE */
+@media(max-width:450px){
+    main .habilidades .header-habilidades h2{
+        font-size: 2rem;
+    }
+    main .habilidades .header-habilidades img{
+        width: 55px;
+    }
+    main .habilidades h4{
+        font-size: 1.1rem;
+    }
+}
 
 
 /* SECTION PROJETOS */
@@ -414,4 +420,20 @@ main .projetos .projetos-principais h3{
 }
 main .projetos .projetos-principais h3:hover{
     color: black;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width:450px){
+    main .projetos h2 {
+        font-size: 1.7rem;
+    }
+    main .projetos .projetos-titulo img {
+        width: 40px;
+    }
+    main .projetos .projetos-principais h4, .projetos-simples h4 {
+        font-size: 1.5rem;
+    }
+    main .projetos .projetos-principais p, .projetos-simples p {
+        font-size: 1.2rem;
+    }
 }
