@@ -301,7 +301,7 @@ main .projetos .projetos-simples .box,
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     text-align: center;
     border-radius: 20px;
 }
